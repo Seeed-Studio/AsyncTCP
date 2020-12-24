@@ -23,6 +23,7 @@
 
 #include "AsyncTCP.h"
 #ifdef WIO_TERMINAL
+#include "rpcWIFI.h"
 #include "esp/esp_err.h"
 #else
 #include "esp_task_wdt.h"
